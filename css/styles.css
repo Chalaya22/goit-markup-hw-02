@@ -26,7 +26,6 @@ body {
 }
 .link {
   text-decoration: none;
-  list-style-type: none;
 }
 .logo-studio {
   color: #2e2f42;
@@ -100,4 +99,7 @@ body {
 .tel:hover,
 .tel:focus {
   color: #404bbf;
+}
+.list {
+  list-style: none;
 }
