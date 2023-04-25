@@ -167,6 +167,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 24px;
 
   position: absolute;
   width: 1128px;
@@ -208,11 +209,12 @@ body {
   left: 559px;
   top: 1016px;
 
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
+  line-height: 1.11;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -223,10 +225,76 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 24px;
 
   position: absolute;
   width: 1128px;
   height: 412px;
   left: 156px;
-  top: 1016px;
+  top: 1128px;
+}
+/* section-four */
+.section-four {
+  position: absolute;
+  width: 1440px;
+  height: 732px;
+  left: 0px;
+  top: 1548px;
+
+  background: #f4f4fd;
+}
+.heder-section-four {
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 120px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.list-section-four {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+}
+.heder-name {
+  width: 134px;
+  height: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.paragraf-section-four {
+  width: 128px;
+  height: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
