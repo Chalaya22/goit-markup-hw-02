@@ -73,12 +73,12 @@ body {
   font-style: normal;
 }
 
-.contact {
-  /* position: absolute;
+.contact-email {
+  position: absolute;
   width: 153px;
   height: 24px;
   left: 940px;
-  top: 24px; */
+  top: 24px;
 
   font-family: var(--main-font-family);
   font-weight: 400;
@@ -89,18 +89,18 @@ body {
   color: #434455;
 }
 .contact-tel {
-  /* position: absolute;
+  position: absolute;
   width: 151px;
   height: 24px;
   left: 1133px;
-  top: 24px; */
+  top: 24px;
 
-  /* font-family: var(--main-font-family);
+  font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 
-  color: #434455; */
+  color: #434455;
 }
 .contact-email:hover,
 .contact-email:focus {
@@ -362,6 +362,7 @@ body {
   background: #f4f4fd;
   cursor: pointer;
 }
+
 .filters-list {
   display: flex;
   flex-direction: row;
@@ -376,7 +377,7 @@ body {
   top: 168px;
 }
 /* MENU */
-.header-cards-llist {
+.header-card {
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 20px;
@@ -384,7 +385,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.paragraf-cards-llist {
+.paragraf-card {
   font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
