@@ -73,12 +73,12 @@ body {
   font-style: normal;
 }
 
-.contact-email {
-  position: absolute;
+.contact {
+  /* position: absolute;
   width: 153px;
   height: 24px;
   left: 940px;
-  top: 24px;
+  top: 24px; */
 
   font-family: var(--main-font-family);
   font-weight: 400;
@@ -89,18 +89,18 @@ body {
   color: #434455;
 }
 .contact-tel {
-  position: absolute;
+  /* position: absolute;
   width: 151px;
   height: 24px;
   left: 1133px;
-  top: 24px;
+  top: 24px; */
 
-  font-family: var(--main-font-family);
+  /* font-family: var(--main-font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 
-  color: #434455;
+  color: #434455; */
 }
 .contact-email:hover,
 .contact-email:focus {
