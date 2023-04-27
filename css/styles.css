@@ -341,3 +341,132 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
 }
+/* PORTFOLIO */
+.btn-decoration:hover,
+.btn-decoration:focus {
+  color: #ffffff;
+  background-color: var(--accent-color-second);
+}
+.filter-btn-all {
+  padding: 12px 24px;
+  width: 69px;
+  height: 48px;
+
+  background: var(--secondary-font-family);
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.04em;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--accent-color);
+  background: #f4f4fd;
+  cursor: pointer;
+}
+
+.filter-btn-web {
+  background: var(--secondary-font-family);
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.04em;
+
+  display: flex;
+  align-items: center;
+  color: var(--accent-color);
+  background: #f4f4fd;
+  cursor: pointer;
+
+  padding: 24px 12px;
+  width: 116px;
+  height: 48px;
+}
+.filter-btn-app {
+  background: var(--secondary-font-family);
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.04em;
+
+  display: flex;
+  align-items: center;
+  color: var(--accent-color);
+  background: #f4f4fd;
+  cursor: pointer;
+
+  padding: 24px 12px;
+  width: 78px;
+  height: 48px;
+}
+
+.filter-btn-design {
+  background: var(--secondary-font-family);
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.04em;
+
+  display: flex;
+  align-items: center;
+  color: var(--accent-color);
+  background: #f4f4fd;
+  cursor: pointer;
+
+  padding: 24px 12px;
+  width: 101px;
+  height: 48px;
+}
+.filter-btn-marketing {
+  background: var(--secondary-font-family);
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.04em;
+
+  display: flex;
+  align-items: center;
+  color: var(--accent-color);
+  background: #f4f4fd;
+  cursor: pointer;
+
+  padding: 24px 12px;
+  width: 126px;
+  height: 48px;
+}
+.filters-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 586px;
+  height: 48px;
+  left: 427px;
+  top: 168px;
+}
+/* MENU */
+.header-cards-llist {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.paragraf-cards-llist {
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
